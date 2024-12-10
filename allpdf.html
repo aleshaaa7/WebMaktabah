@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Alesha Malik">
+    <meta name="description" content="Authentic Ilm Archives">
+    <title>Authentic Ilm Archives</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Markazi+Text:wght@400..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html"><img src="logo.png" alt="AIA" width="100px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link links" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active links" aria-current="page" href="allpdf.html">PDF's with Lessons</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link links" href="justpdf.html">PDF's</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link links" href="about.html">About</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Books by..." aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="main">
+        <h1 class="anim">PDF's with Lessons</h1>
+        <h2 class="light anim delayhead">Non-Copyrighted PDF's paired with beneficial lessons</h2>
+        <h5 class="light anim delayanother">In English & Arabic</h5>
+        <hr>
+
+        <h6>
+            Categories
+            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="16" fill="currentColor"
+                class="bi bi-file-earmark-check icon-a" viewBox="0 0 16 16">
+                <path
+                    d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0z" />
+                <path
+                    d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
+            </svg>
+        </h6>
+        <br>
+        <br>
+        <div class="categories">
+            <h2 class="category-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-heart-pulse icon-a" viewBox="0 0 16 16">
+                    <path
+                        d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053.918 3.995.78 5.323 1.508 7H.43c-2.128-5.697 4.165-8.83 7.394-5.857q.09.083.176.171a3 3 0 0 1 .176-.17c3.23-2.974 9.522.159 7.394 5.856h-1.078c.728-1.677.59-3.005.108-3.947C13.486.878 10.4.28 8.717 2.01zM2.212 10h1.315C4.593 11.183 6.05 12.458 8 13.795c1.949-1.337 3.407-2.612 4.473-3.795h1.315c-1.265 1.566-3.14 3.25-5.788 5-2.648-1.75-4.523-3.434-5.788-5" />
+                    <path
+                        d="M10.464 3.314a.5.5 0 0 0-.945.049L7.921 8.956 6.464 5.314a.5.5 0 0 0-.88-.091L3.732 8H.5a.5.5 0 0 0 0 1H4a.5.5 0 0 0 .416-.223l1.473-2.209 1.647 4.118a.5.5 0 0 0 .945-.049l1.598-5.593 1.457 3.642A.5.5 0 0 0 12 9h3.5a.5.5 0 0 0 0-1h-3.162z" />
+                </svg>
+                <br>
+                <a class="icon-link light linka" href="aqeedah.html">
+                    Aqeedah
+                </a>
+            </h2>
+            <br>
+            <h2 class="category-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-book icon-a" viewBox="0 0 16 16">
+                    <path
+                        d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+                </svg>
+                <br>
+                <a class="icon-link light linka" href="qt.html">
+                    Quran & Tafasir
+                </a>
+            </h2>
+            <br>
+            <h2 class="category-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-pencil-square icon-a" viewBox="0 0 16 16">
+                    <path
+                        d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
+                    <path fill-rule="evenodd"
+                        d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                </svg>
+                <br>
+                <a class="icon-link light linka" href="fiqh.html">
+                    Fiqh
+                </a>
+            </h2>
+            <br>
+            <h2 class="category-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-envelope-paper-heart icon-a" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2 2a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v1.133l.941.502A2 2 0 0 1 16 5.4V14a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V5.4a2 2 0 0 1 1.059-1.765L2 3.133zm0 2.267-.47.25A1 1 0 0 0 1 5.4v.817l1 .6zm1 3.15 3.75 2.25L8 8.917l1.25.75L13 7.417V2a1 1 0 0 0-1-1H4a1 1 0 0 0-1 1zm11-.6 1-.6V5.4a1 1 0 0 0-.53-.882L14 4.267zM8 2.982C9.664 1.309 13.825 4.236 8 8 2.175 4.236 6.336 1.31 8 2.982m7 4.401-4.778 2.867L15 13.117zm-.035 6.88L8 10.082l-6.965 4.18A1 1 0 0 0 2 15h12a1 1 0 0 0 .965-.738ZM1 13.116l4.778-2.867L1 7.383v5.734Z" />
+                </svg>
+                <br>
+                <a class="icon-link light linka" href="hadith.html">
+                    Hadith
+                </a>
+            </h2>
+            <br>
+            <h2 class="category-item">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                    class="bi bi-signpost-split icon-a" viewBox="0 0 16 16">
+                    <path
+                        d="M7 7V1.414a1 1 0 0 1 2 0V2h5a1 1 0 0 1 .8.4l.975 1.3a.5.5 0 0 1 0 .6L14.8 5.6a1 1 0 0 1-.8.4H9v10H7v-5H2a1 1 0 0 1-.8-.4L.225 9.3a.5.5 0 0 1 0-.6L1.2 7.4A1 1 0 0 1 2 7zm1 3V8H2l-.75 1L2 10zm0-5h6l.75-1L14 3H8z" />
+                </svg>
+                <br>
+                <a class="icon-link light linka" href="seerah.html">
+                    Seerah
+                </a>
+            </h2>
+            <br>
+            </h2>
+        </div>
+        <br>
+        <br>
+        <h2>
+            All PDF's with Lessons
+        </h2>
+        <p>Arabic & English</p>
+        <br>
+        <br>
+        <div class="container text-center mt-5">
+            <div class="row">
+                <!-- Card -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <img src="images/thausool.jpg" class="card-img-left" alt="Card image" width="702" height="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Thalathat Al Usool</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">The Three Fundamental Principles by
+                                Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                            <a href="https://archive.org/details/Sharh-al-Usool-ath-Thalaathah" class="card-link">Al
+                                Fawzan Explanation - English</a>
+                            <br>
+                            <a href="https://archive.org/details/2494Pdf_201812/mode/2up" class="card-link">Al Fawzan
+                                Explanation - Arabic</a>
+                            <br>
+                            <a href="https://soundcloud.com/salafi-publications/sets/the-three-fundamental?si=33baf6d16d0e41dbac76eae955968bab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                            <hr>
+                            <a href="https://archive.org/details/sharh-usoolu-thalaatha-bin-baz/mode/2up"
+                                class="card-link">Ibn Baz Explanation - Arabic</a>
+                            <br>
+                            <a href="https://soundcloud.com/masjidbinbazradio/sets/explanation-of-the-three?si=f8dd8b866a24459e9cc0c3cb9632821c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Preview PDF -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <iframe src="https://archive.org/embed/Sharh-al-Usool-ath-Thalaathah" width="560" height="384"
+                            frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                            class="preview"></iframe>
+                        <iframe src="https://archive.org/embed/2494Pdf_201812" width="560" height="384" frameborder="0"
+                            webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                            class="preview"></iframe>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <img src="images/qawaidalarbaa.pdf" class="card-img-left" alt="Card image" width="702"
+                            height="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Qawaid Al Arba'a</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">The Four Fundamental Principles by
+                                Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                            <a href="https://archive.org/details/sharh-qawaidul-arbau-fawzan-english/mode/2up"
+                                class="card-link">Al
+                                Fawzan Explanation - English</a>
+                            <br>
+                            <a href="https://archive.org/details/2539Pdf/mode/2up" class="card-link">Al Fawzan
+                                Explanation - Arabic</a>
+                            <br>
+                            <a href="https://soundcloud.com/learnaboutislam/sets/four-fundamental-principles"
+                                class="card-link">Lessons</a>
+                            <hr>
+                            <a href="https://archive.org/details/sharh-qawaidul-arbau-baz-english" class="card-link">Ibn
+                                Baz Explanation - English</a>
+                            <br>
+                            <a href="https://binbaz.org.sa/books/pdf/32748" class="card-link">Ibn Baz Explanation -
+                                Arabic</a>
+                            <p class="source">
+                                Source: https://binbaz.org.sa/
+                            </p>
+                            <a href="https://soundcloud.com/masjidbinbazradio/sets/explanation-of-the-four?si=9470b10cd51347719cdf00faae78cc6d&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Preview PDF -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <iframe src="https://archive.org/embed/sharh-qawaidul-arbau-fawzan-english" width="560"
+                            height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+                            allowfullscreen class="preview"></iframe>
+                        <iframe src="https://archive.org/embed/2539Pdf" width="560" height="384" frameborder="0"
+                            webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                            class="preview"></iframe>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <img src="images/kitabattawhid.jpeg" class="card-img-left" alt="Card image" width="702"
+                            height="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Kitab At-Tawhid</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Book of Monotheism by
+                                Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                            <br>
+                            <a href="https://archive.org/details/aqidah-06018/Aqidah06018%20%D9%83%D8%AA%D8%A7%D8%A8%20%D8%A7%D9%84%D8%AA%D9%88%D8%AD%D9%8A%D8%AF%20%D8%A7%D9%84%D8%B4%D9%8A%D8%AE%20%D8%B5%D8%A7%D9%84%D8%AD%20%D8%A8%D9%86%20%D9%81%D9%88%D8%B2%D8%A7%D9%86%20%D8%A7%D9%84%D9%81%D9%88%D8%B2%D8%A7%D9%86/mode/2up"
+                                class="card-link">Al Fawzan
+                                Explanation - Arabic</a>
+                            <br>
+                            <a href="https://soundcloud.com/tariq-sultan-475143663/sets/exp-kitab-at-tawh-d-sh-hassan?si=630c4852ca294671830d7f63a775ecbe&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                            <hr>
+                            <a href="https://archive.org/details/sharh-kitab-at-tawhid-as-sadi/mode/2up"
+                                class="card-link">As-Sa'di Explanation - English</a>
+                            <br>
+                            <a href="https://soundcloud.com/salafi-publications/sets/kitab-at-tawhid-by-abu-talhah-dawood-burbank-rahimahullah?si=d2968501009a4b4aa7503cab14c22733&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Preview PDF -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <iframe src="https://archive.org/embed/sharh-kitab-at-tawhid-as-sadi" width="1500" height="384"
+                            frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                            class="preview">
+                        </iframe>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <img src="images/nawaqid.pdf" class="card-img-left" alt="Card image" width="702" height="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Nawaqid Ul Islam</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">Nullifiers of Islam by
+                                Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                            <br>
+                            <a href="https://youtube.com/playlist?list=PL_YzICalM76ghLUC4Tm-Ko41odxlpIOCG&si=yw72Tmo6vR01ZNPH"
+                                class="card-link">Al Fawzan Lessons - English</a>
+                            <br>
+                            <a href="https://youtube.com/playlist?list=PL3523jgHxjkYHy574A99JA7L8qixCnTk_&si=YmGXST1IrtHPAGKL"
+                                class="card-link">Al Fawzan Lessons - Arabic</a>
+                            <hr>
+                            <a href="https://archive.org/details/TheExplanationOfTheNullifiersOfIslamBySheikhAbdulAzizBinBazOfMuhammadBinAbdul-Wahhab/mode/2up"
+                                class="card-link">Ibn Baz Explanation - English</a>
+                            <br>
+                            <a href="https://archive.org/details/sharh-nawaqidul-islam-bin-baz/mode/2up"
+                                class="card-link">Ibn Baz Explanation - Arabic</a>
+                            <br>
+                            <a href="https://soundcloud.com/masjidbinbazradio/sets/explanation-of-nawaqidul-islam?si=62d23ce04b6548639d67ae334d1c9b8c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Preview PDF -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <iframe src="https://archive.org/embed/sharh-nawaqidul-islam-bin-baz" width="560" height="384"
+                            frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                            class="preview"></iframe>
+                        <iframe width="560" height="384"
+                            src="https://www.youtube.com/embed/videoseries?si=5NMJwVK0WhT8kRZl&amp;list=PL3523jgHxjkYHy574A99JA7L8qixCnTk_"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="preview"></iframe>
+                    </div>
+                </div>
+                <!-- Card -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <img src="images/alwasituthaymeen.jpg" class="card-img-left" alt="Card image" width="702"
+                            height="1000">
+                        <div class="card-body">
+                            <h5 class="card-title">Al Aqeedah Al Wasitiyyah</h5>
+                            <h6 class="card-subtitle mb-2 text-body-secondary">by
+                                Shaykh Al-Islam Ibn Taymiyyah</h6>
+                            <a href="file:///C:/Users/alesh/Downloads/Telegram%20Desktop/%D8%B4%D8%B1%D8%AD%20%D8%A7%D9%84%D8%B9%D9%82%D9%8A%D8%AF%D8%A9%20%D8%A7%D9%84%D9%88%D8%A7%D8%B3%D8%B7%D9%8A%D8%A9%20-%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AB%D9%8A%D9%85%D9%8A%D9%86.pdf"
+                                class="card-link">Ibn
+                                Uthaymeen
+                                Explanation - Arabic</a>
+                            <br>
+                            <a href="https://youtube.com/playlist?list=PLE-8woMFi6heevedhCw0qkxuxoanuUirW&si=s1u_08ArX1EiLVLH"
+                                class="card-link">Lessons</a>
+                            <hr>
+                            <a href="https://archive.org/details/AlAqidahAlWaasitiyyahExplanationByShaykhSalehAlFawzan/mode/2up"
+                                class="card-link">Al Fawzan Explanation - English</a>
+                            <br>
+                            <a href="https://soundcloud.com/salafi-publications/sets/aqidah-al-wasitiyyah-by-abu?si=1ced70aa94ff4231a35b35eb14968ade&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                                class="card-link">Lessons</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Preview PDF -->
+                <div class="col-12">
+                    <div class="card d-flex flex-row align-items-center">
+                        <iframe src="https://archive.org/embed/AlAqidahAlWaasitiyyahExplanationByShaykhSalehAlFawzan"
+                            width="1500" height="384" frameborder="0" webkitallowfullscreen="true"
+                            mozallowfullscreen="true" allowfullscreen class="preview"></iframe>
+                    </div>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/arbaeenannawawi.jpg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Arba'een An-Nawawi</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">40 Hadith by
+                            Imam an-Nawawi</h6>
+                        <a href="https://archive.org/details/sharh-arbaoon-nawawi-uthaymeen/mode/2up"
+                            class="card-link">Ibn
+                            Uthaymeen
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://www.scribd.com/document/642416778/%D8%B4%D8%B1%D8%AD-%D8%A7%D9%84%D8%A3%D8%B1%D8%A8%D8%B9%D9%88%D9%86-%D8%A7%D9%84%D9%86%D9%88%D9%88%D9%8A%D8%A9-%D8%A7%D9%84%D8%B4%D9%8A%D8%AE-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D8%B1%D8%B2%D8%A7%D9%82-%D8%A8%D9%86-%D8%B9%D8%A8%D8%AF-%D8%A7%D9%84%D9%85%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%A8%D8%AF%D8%B1-pdf"
+                            class="card-link">Abdul Muhsin
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://archive.org/details/exp.ofimamannawawis40hadithsh.saalihalfawzaanhighquality/Exp.-of-Imam-an-Nawawis-40-Hadith-Sh.-Saalih-al-Fawzaan-High-Quality/mode/2up"
+                            class="card-link">Al Fawzan Explanation - English</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/the-forty-had-th-of-im-m-an?si=0eceb414d3b4415dabea8076d03e5a2a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <iframe src="https://archive.org/embed/exp.ofimamannawawis40hadithsh.saalihalfawzaanhighquality"
+                        width="560" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+                        allowfullscreen class="preview"></iframe>
+                    <iframe src="https://archive.org/embed/sharh-arbaoon-nawawi-uthaymeen" width="560" height="384"
+                        frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                        class="preview"></iframe>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/kashf.jpg" class="card-img-left" alt="Card image" width="702" height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Kashf Ash Shubuhat</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Removal of the Doubts by
+                            Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                        <a href="https://archive.org/details/KashfushShubuhaatEng" class="card-link">Full text -
+                            English</a><br>
+                        <a href="file:///C:/Users/alesh/Downloads/Telegram%20Desktop/%D8%B4%D8%B1%D8%AD%20%D9%83%D8%B4%D9%81%20%D8%A7%D9%84%D8%B4%D8%A8%D9%87%D8%A7%D8%AA%20-%20%D8%A7%D8%A8%D9%86%20%D8%B9%D8%AB%D9%8A%D9%85%D9%8A%D9%86.pdf"
+                            class="card-link">Ibn Uthaymeen
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://archive.org/details/00724-pdf/mode/2up" class="card-link">Ibn Baz
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/masjidalwahyain/sets/explanation-of-removal-of-the?si=e8a524ed7d7a478a964855d56dcd7567&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <iframe src="https://archive.org/embed/KashfushShubuhaatEng" width="560" height="384"
+                        frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen
+                        class="preview"></iframe>
+                    <iframe src="https://archive.org/embed/00724-pdf" width="560" height="384" frameborder="0"
+                        webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen class="preview"></iframe>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/shurootassalah.jpeg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Sharh Shuroot wal Arkaan wa Waajibaat as-Salah</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">The Conditions, Pillars and Obligations
+                            of the Prayer by
+                            Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                        <a href="https://archive.org/details/Sharh-al-Usool-ath-Thalaathah" class="card-link">Abdul
+                            Muhsin Explanation - English</a>
+                        <br>
+                        <a href="https://archive.org/details/2494Pdf_201812/mode/2up" class="card-link">Abdul Muhsin
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/the-three-fundamental?si=33baf6d16d0e41dbac76eae955968bab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                        <hr>
+                        <a href="#" class="card-link">Al Fawzan Explanation - English</a>
+                        <br>
+                        <a href="#" class="card-link">Al Fawzan Explanation - Arabic</a>
+                        <br>
+                        <a href="#" class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/sharhussunnah.jpeg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Sharhus Sunnah</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Explanation of the Sunnah by
+                            Imam Al-Barbahari</h6>
+                        <hr>
+                        <a href="https://archive.org/details/sharhassunnahbyimamalbarbahaareeexp.saalihalfawzanvol.1highquality/Sharh-As-Sunnah-by-Imam-al-Barbahaaree-Exp.-Saalih-al-Fawzan-Vol.-1-Comp-Quality/mode/2up"
+                            class="card-link">Al Fawzan Explanation - English</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/explanation-of-the-creed-of-al?si=f37b31f2e11644108305326b25484bb1&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <iframe
+                        src="https://archive.org/embed/sharhassunnahbyimamalbarbahaareeexp.saalihalfawzanvol.1highquality"
+                        width="1500" height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+                        allowfullscreen class="preview"></iframe>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/usoolassittah.jpeg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Usool As-Sittah</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">The Six Fundamental Principles by
+                            Shaykh Al-Islam Muhammad Ibn Abdul Wahhab</h6>
+                        <a href="https://archive.org/details/Sharh-al-Usool-ath-Thalaathah" class="card-link">Ibn
+                            Uthaymeen Explanation - English</a>
+                        <br>
+                        <a href="https://archive.org/details/2494Pdf_201812/mode/2up" class="card-link">Ibn
+                            Uthaymeen
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/the-three-fundamental?si=33baf6d16d0e41dbac76eae955968bab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                        <hr>
+                        <a href="#" class="card-link">Al Fawzan Explanation - English</a>
+                        <br>
+                        <a href="#" class="card-link">Al Fawzan Explanation - Arabic</a>
+                        <br>
+                        <a href="#" class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/usoolassunnah.jpeg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Usool As-Sunnah</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">The Fundamentals of the Sunnah by
+                            Imam Ahmed</h6>
+                        <a href="https://archive.org/details/Sharh-al-Usool-ath-Thalaathah" class="card-link">Ibn
+                            Uthaymeen Explanation - English</a>
+                        <br>
+                        <a href="https://archive.org/details/2494Pdf_201812/mode/2up" class="card-link">Ibn
+                            Uthaymeen
+                            Explanation - Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/the-three-fundamental?si=33baf6d16d0e41dbac76eae955968bab&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                        <hr>
+                        <a href="#" class="card-link">Al Fawzan Explanation - English</a>
+                        <br>
+                        <a href="#" class="card-link">Al Fawzan Explanation - Arabic</a>
+                        <br>
+                        <a href="#" class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/mulakhasalfiqhee.jpeg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Al-Mulakhas al-Fiqhee</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">Summary of Islamic Jurisprudence by
+                            Shaykh Salih Al Fawzan</h6>
+                        <hr>
+                        <a href="#" class="card-link">PDF - English</a>
+                        <br>
+                        <a href="#" class="card-link">PDF - Arabic</a>
+                        <br>
+                        <a href="#" class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/tafsirassadi.jpg" class="card-img-left" alt="Card image" width="702" height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Tafsir As-Sa'di</h5>
+                        <hr>
+                        <a href="https://archive.org/details/ozkorallh_201711/mode/2up" class="card-link">PDF -
+                            Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/user622052064/sets/tafsir-as-sadi-ihsan-dawud?si=5c4c7f1f69c94208ba4e2bc56eace43a&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons - Juz 'Amma</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <iframe src="https://archive.org/embed/ozkorallh_201711" width="1500" height="384" frameborder="0"
+                        webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen class="preview"></iframe>
+                </div>
+            </div>
+            <!-- Card -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <img src="images/tafsir-ibn-kathir.jpg" class="card-img-left" alt="Card image" width="702"
+                        height="1000">
+                    <div class="card-body">
+                        <h5 class="card-title">Tafsir Ibn Kathir</h5>
+                        <hr>
+                        <a href="https://archive.org/details/TafseerIbnKathirenglish114SurahsComplete/001Fateh/page/n1/mode/2up"
+                            class="card-link">PDF - English</a>
+                        <br>
+                        <a href="https://archive.org/details/tkather/tkather00/" class="card-link">PDF - Arabic</a>
+                        <br>
+                        <a href="https://soundcloud.com/salafi-publications/sets/tafsir-ibn-kathir-by-abu?si=6d16a190af5f4db3bb6ac5042e41f84c&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"
+                            class="card-link">Lessons</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Preview PDF -->
+            <div class="col-12">
+                <div class="card d-flex flex-row align-items-center">
+                    <iframe src="https://archive.org/embed/TafseerIbnKathirenglish114SurahsComplete" width="560"
+                        height="384" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true"
+                        allowfullscreen class="preview"></iframe>
+                    <iframe src="https://archive.org/embed/tkather" width="560" height="384" frameborder="0"
+                        webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen class="preview"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#" class="backtotop">Back to Top</a>
+</body>
+
+
+</html>
