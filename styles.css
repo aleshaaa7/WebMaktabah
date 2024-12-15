@@ -136,6 +136,12 @@
     color: rgb(0, 13, 51);
 }
 
+.backtotop {
+    color: #fff;
+    transition: color 0.3s ease;
+    font-size: 20px;
+}
+
 .backtotop:hover {
     color: rgb(0, 13, 51);
 }
@@ -204,4 +210,33 @@ body {
 .source {
     font-size: 10px;
     font-style: italic;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.custom-btn {
+    background-color: #083b63 !important;
+}
+
+.dropdown-menu {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+}
+
+.about {
+    font-size: 20px;
+    padding: 20px;
+}
+
+.about p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about-button {
+    background-color: #fff !important;
+    color: #083b63 !important;
 }
