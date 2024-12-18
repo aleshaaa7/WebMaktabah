@@ -13,23 +13,22 @@
 .categories {
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    gap: 30px;
     flex-wrap: wrap;
-    text-align: center;
-
 }
 
 .category-item {
-    margin: 10px;
     display: flex;
     flex-direction: column;
     /* Stack icon above text */
     align-items: center;
     /* Center icon and text horizontally */
     text-align: center;
-    min-width: 100px;
 }
 
+.menu {
+    font-size: 20px !important;
+}
 
 .icon {
     width: 35px;
@@ -38,9 +37,12 @@
 }
 
 .icon-a {
-    width: 25px;
-    height: 35px;
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px !important;
 }
+
+
 
 .main {
     background-color: #003053;
@@ -320,6 +322,7 @@ html {
     }
 }
 
+
 @media screen and (max-width: 480px) {
 
     html,
@@ -333,8 +336,9 @@ html {
     }
 
     .categories {
-        min-width: 80px;
-        /* Adjust item size for smaller devices */
+        flex-direction: column;
+        /* Stacks items in a column on smaller screens */
+        align-items: center;
     }
 }
 
